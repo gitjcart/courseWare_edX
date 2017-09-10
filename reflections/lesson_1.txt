@@ -4,14 +4,17 @@ lesson 1 notes
 
 some definitions that will be nice to learn and use in proper dialogue.
 
+scalar objects
+non-scalar objects
+program - a sedqience of definitions and commands
 primitive constructs - numbers, strings, simple operators
 syntax - that parsing of a sentence to know, is this a legal sentence or not
 static semantics - tells us which syntactically valid strings actually have meaning
 full semantics - the meaning associated with a syntactically correct string of symbols with no static semantic errors
 boolean - 
 operator - 
-expression - more complex but legal combinations of primitives that the programming language will recognize.
+expression - more complex but legal combinations of primitives that the programming language will recognize
 definitions - are evaluated
-commands - executed by Python interpreter in a shell
+commands - executed by Python interpreter in a shell, instruct interpreter to do something
 evaluation - 
 algorithm - a "recipe" in this course, or, a logical sequence of events
