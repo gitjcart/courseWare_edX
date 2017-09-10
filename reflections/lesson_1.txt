@@ -1,1 +1,14 @@
 lesson 1 notes
+
+6 primitives are the least amount required to compute anything. those are (move left, move right, scan, print, write, do nothing)
+
+some definitions that will be nice to learn and use in proper dialogue.
+primitive constructs - numbers, strings, simple operators
+syntax - that parsing of a sentence to know, is this a legal sentence of not
+static semantics - 
+full semantics - 
+boolean - 
+operator - 
+expression - more complex but legal combinations of primitives that the programming language will recognize.
+evaluation - 
+algorithm - a "recipe" in this course, or, a logical sequence of events
