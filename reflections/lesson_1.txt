@@ -4,7 +4,7 @@ lesson 1 notes
 
 some definitions that will be nice to learn and use in proper dialogue.
 
-scalar objects - have a type that defines the kinds of things programs can do to them, cannot be subdivided
+scalar objects - have a type that defines the kinds of things programs can do to them, cannot be subdivided (ints, floats, bools)
 non-scalar objects - have a type that defines the kinds of things program can do to them, have internal structure that can be accessed
 program - a sedqience of definitions and commands
 primitive constructs - numbers, strings, simple operators
