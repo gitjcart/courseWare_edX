@@ -2,21 +2,3 @@ lesson 1 notes
 
 6 primitives are the least amount required to compute anything. those are (move left, move right, scan, print, write, do nothing)
 
-some definitions that will be nice to learn and use in proper dialogue.
-
-scalar objects - have a type that defines the kinds of things programs can do to them, cannot be subdivided (ints, floats, bools, NoneType)
-non-scalar objects - have a type that defines the kinds of things program can do to them, have internal structure that can be accessed
-program - a sedqience of definitions and commands
-primitive constructs - numbers, strings, simple operators
-syntax - that parsing of a sentence to know, is this a legal sentence or not
-static semantics - tells us which syntactically valid strings actually have meaning
-full semantics - the meaning associated with a syntactically correct string of symbols with no static semantic errors
-int - represent integers (whole numbers)
-float - represent real numbers (numbers with a decimal place after them)
-bool - represent Boolean values True and False
-operator - 
-expression - more complex but legal combinations of primitives that the programming language will recognize; combine objects and operators to form expressions; an expression has a value which has a type; syntax for a simple expression: <object> <operator> <object>
-definitions - are evaluated
-commands - executed by Python interpreter in a shell, instruct interpreter to do something
-evaluation - 
-algorithm - a "recipe" in this course, or, a logical sequence of events
