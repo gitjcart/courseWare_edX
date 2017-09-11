@@ -17,3 +17,14 @@ print('')
 print(b)
 print('')
 print(c)
+
+hi = "hello there"
+
+foo = "this isn't not right"
+
+man = "where I left"
+
+chew = "it"
+
+fmc = foo+" "+man+" "+chew
+print(fmc)
