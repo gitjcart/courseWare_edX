@@ -10,11 +10,11 @@ full semantics - the meaning associated with a syntactically correct string of s
 int - represent integers (whole numbers)
 float - represent real numbers (numbers with a decimal place after them)
 bool - represent Boolean values True and False
-operator - 
+operator - special symbols in Python that carry out arithmetic or logical computation
 expression - more complex but legal combinations of primitives that the programming language will recognize; combine objects and operators to form expressions; an expression has a value which has a type; syntax for a simple expression: <object> <operator> <object>
 definitions - are evaluated
 commands - executed by Python interpreter in a shell, instruct interpreter to do something
-evaluation - 
 algorithm - a "recipe" in this course, or, a logical sequence of events
 variables - (bindings) are descriptive, meaningful, helps you re-read code, cannot be keywords, information is stored and can be updated
-concatenate - 
+concatenate - the operation of joining character strings end-to-end
+string - a sequence of characters enclosed within single or double quotation marks
