@@ -108,11 +108,12 @@ print(bounce[-14]+ ' ' + '[-14]' + ' ' + 'Second slice of the string UNCOPYRIGHT
 print(bounce[:-14]+ ' ' + '[:-14]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
 print(bounce[-14:]+ ' ' + '[-14:]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
 
-# slicing with deletions on the latter part
+# slicing with strides on the latter part
 
 print(bounce[1:4:2]+ ' ' + '[1]' + ' ' + 'Second slice of the string to the fourth slice, then delete from the fourth to the second string UNCOPYRIGHTABLE')
 print(bounce[2:3:1]+ ' ' + '[1]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
 print(bounce[4:0:2]+ ' ' + '[1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
 print(bounce[0:3:1]+ ' ' + '[1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+
 
 print(len(bounce))
