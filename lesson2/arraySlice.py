@@ -18,3 +18,27 @@ you can use raw strings by adding an r before the first quote:
 """
 print('C:\some\name')  # here \n means newline!
 # print r('C:\some\name')  # note the r before the quote ## THIS DOESN'T QUITE WORK
+
+
+print(bounce[1])
+print(bounce[1:])
+print(bounce[:1])
+print(bounce[-1])
+print(bounce[:-1])
+print(bounce[-1:])
+print(bounce[2])
+print(bounce[2:])
+print(bounce[:2])
+print(bounce[-2])
+print(bounce[:-2])
+print(bounce[-2:])
+print(bounce[3])
+print(bounce[-3:])
+print(bounce[:-3])
+# print(bounce[])
+# print(bounce[])
+# print(bounce[])
+# print(bounce[])
+# print(bounce[])
+# print(bounce[])
+# print(bounce[])
