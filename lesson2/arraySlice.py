@@ -1,8 +1,8 @@
 # there is more than one way to slice an array, 
 # These are just examples of slicing
+import math
 
-
-bounce='high'
+bounce='uncopyrightable'
 pounce='far'
 mouse='mickey'
 house='casita'
@@ -20,25 +20,25 @@ you can use raw strings by adding an r before the first quote:
 # print r('C:\some\name')  # note the r before the quote ## THIS DOESN'T QUITE WORK
 
 
-print(bounce[1]+ ' ' + '[1]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[1:]+ ' ' + '[1:]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[:1]+ ' ' + '[:1]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[-1]+ ' ' + '[-1]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[:-1]+ ' ' + '[-:1]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[-1:]+ ' ' + '[-1:]' + ' ' + 'Second slice of the string HIGH')
-print(bounce[2]+ ' ' + '[2]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[2:]+ ' ' + '[2:]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[:2]+ ' ' + '[:2]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[-2]+ ' ' + '[-2]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[:-2]+ ' ' + '[:-2]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[-2:]+ ' ' + '[-2:]' + ' ' + 'Third slice of the string HIGH')
-print(bounce[3]+ ' ' + '[3]' + ' ' + 'Fourth slice of the string HIGH')
-print(bounce[-3:]+ ' ' + '[-3:]' +  ' '  + 'Fourth slice of the string HIGH')
-print(bounce[:-3]+ ' ' + '[:-3]' +  ' ' + 'Fourth slice of the string HIGH')
-print(bounce[0] + ' ' + '[:-3]' +  ' ' + 'First slice of the string HIGH')
-print(bounce[:0] + ' ' + '[:-3]' +  ' ' + 'First slice of the string HIGH')
-print(bounce[0:] + ' ' + '[:-3]' +  ' ' + 'First slice of the string HIGH')
-# print(bounce[])
-# print(bounce[])
-# print(bounce[])
-# print(bounce[])
+print(bounce[1]+ ' ' + '[1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[1:]+ ' ' + '[1:]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[:1]+ ' ' + '[:1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[-1]+ ' ' + '[-1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[:-1]+ ' ' + '[-:1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[-1:]+ ' ' + '[-1:]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[2]+ ' ' + '[2]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[2:]+ ' ' + '[2:]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[:2]+ ' ' + '[:2]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[-2]+ ' ' + '[-2]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[:-2]+ ' ' + '[:-2]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[-2:]+ ' ' + '[-2:]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[3]+ ' ' + '[3]' + ' ' + 'Fourth slice of the string UNCOPYRIGHTABLE')
+print(bounce[-3:]+ ' ' + '[-3:]' +  ' '  + 'Fourth slice of the string UNCOPYRIGHTABLE')
+print(bounce[:-3]+ ' ' + '[:-3]' +  ' ' + 'Fourth slice of the string UNCOPYRIGHTABLE')
+print(bounce[0] + ' ' + '[:-3]' +  ' ' + 'First slice of the string UNCOPYRIGHTABLE')
+print(bounce[:0] + ' ' + '[:-3]' +  ' ' + 'First slice of the string UNCOPYRIGHTABLE')
+print(bounce[0:] + ' ' + '[:-3]' +  ' ' + 'First slice of the string UNCOPYRIGHTABLE')
+print(bounce[1:4:2])
+print(bounce[2:3:1])
+print(bounce[4:0:2])
+print(bounce[0:3:1])
