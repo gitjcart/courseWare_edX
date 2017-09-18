@@ -39,3 +39,14 @@ if n == 4:
     print('that\'s all buddy')
 else:
     print(n)
+
+mysum = 0
+for i in range(7, 10):
+    mysum += i
+print(mysum)
+
+yoursum = 0
+for i in range(5, 11, 2):
+    yoursum += i
+    print(str(yoursum) + " i + i while in loop")
+print(str(yoursum) + " answer while not in loop")
