@@ -110,10 +110,17 @@ print(bounce[-14:]+ ' ' + '[-14:]' + ' ' + 'Second slice of the string UNCOPYRIG
 
 # slicing with strides on the latter part
 
-print(bounce[1:4:2]+ ' ' + '[1]' + ' ' + 'Second slice of the string to the fourth slice, then delete from the fourth to the second string UNCOPYRIGHTABLE')
-print(bounce[2:3:1]+ ' ' + '[1]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
-print(bounce[4:0:2]+ ' ' + '[1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
-print(bounce[0:3:1]+ ' ' + '[1]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[1:4:2]+ ' ' + '[1:4:2]' + ' ' + 'Second slice of the string to the fourth slice, then delete from the fourth to the second string UNCOPYRIGHTABLE')
+print(bounce[2:14:5]+ ' ' + '[2:14:5]' + ' ' + 'Third slice of the string UNCOPYRIGHTABLE')
+print(bounce[4:14:4]+ ' ' + '[4:14:4]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[:14:6]+ ' ' + '[:14:6]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+print(bounce[4::2]+ ' ' + '[4::2]' + ' ' + 'Second slice of the string UNCOPYRIGHTABLE')
+
+
 
 
 print(len(bounce))
+
+n = int(input("type in an integer ---->   "))
+print(n)
+print(type(n))
