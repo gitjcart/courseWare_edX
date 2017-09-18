@@ -39,11 +39,22 @@ if n == 4:
     print('that\'s all buddy')
 else:
     print(n)
-
+"""
+'for i in range(7, 10) calls on the numbers 
+in range 7-10. 'mysum += i' adds the numbers together
+'print(mysum) will print the added numbers.
+print(mysum) will print different values if located
+within the actual loop itself. it will print the total
+values as the loop goes through each sequence
+"""
 mysum = 0
 for i in range(7, 10):
     mysum += i
 print(mysum)
+
+
+# the 'str()' function converts an 'int' to a string
+# so you can print to STDOUT by concatenating the string
 
 yoursum = 0
 for i in range(5, 11, 2):
