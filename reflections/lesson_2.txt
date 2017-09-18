@@ -2,3 +2,5 @@ lesson 2 notes
 
 Variables aka Bindings
 String assignment
+
+Control Flow statements, such as "while" or "for", allow you to control flow in a non-linear fashion. meaning Control can flow in directions other than a straight line.
