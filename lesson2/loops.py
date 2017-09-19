@@ -52,6 +52,21 @@ for i in range(7, 10):
     mysum += i
 print(mysum)
 
+# adding an if statement in 'for' loop
+
+thisSum = 0
+for i in range(0, 100, 15):
+    thisSum += i
+    print(thisSum)
+    if i < 15:
+        print(i)
+#    elif i == 15:
+#        print(str(i, + " the number is ", i)
+#    elif i > 15:
+#        print("the number is larger than ", i)
+    else:
+        print("it has finished")
+
 
 # the 'str()' function converts an 'int' to a string
 # so you can print to STDOUT by concatenating the string
