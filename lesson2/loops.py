@@ -86,3 +86,35 @@ for i in range(5, 11, 2):
     if ourSum == 5:
         print(str(ourSum) + " this is a BREAK statement!")
     break
+
+# break statement practice
+# DO NOT forget your colon after a for statment, an if statment, an elif statement, and an else statement!
+ourDifference = 0
+for i in range(1, 100):
+    ourDifference -= i
+    if ourDifference == -75:
+        print(str(ourDifference) + " this is an \'if\' statement within a loop!")
+    elif ourDifference == 1:
+        print(str(ourDifference) + " this was the \'elif\' statement within the \'while loop!\'")
+    elif ourDifference == -1:
+        print(str(ourDifference) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
+    else:
+        print("this was the else statement in the \'while\' loop!")
+    break
+
+# this is a practice WHILE LOOP assigned to a function.
+
+def i(int, int)
+ourDiff = 0
+for i in range(1, 100):
+    ourDifference -= i
+    if ourDifference == -75:
+        print(str(ourDifference) + " this is an \'if\' statement within a loop!")
+    elif ourDifference == 1:
+        print(str(ourDifference) + " this was the \'elif\' statement within the \'while loop!\'")
+    elif ourDifference == -1:
+        print(str(ourDifference) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
+    else:
+        print("this was the else statement in the \'while\' loop!")
+    break
+i(int, int)
