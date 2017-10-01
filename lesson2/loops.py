@@ -120,16 +120,18 @@ It returns a syntax error on the double 'int' argument
 
 
 def i():
+    a=int(input())
+    b=int(input())
     ourDiff = 0
-    for i in range(1, 100):
-        ourDifference -= i
-        if ourDifference == -75:
-            print(str(ourDifference) + " this is an \'if\' statement within a loop!")
-        elif ourDifference == 1:
-            print(str(ourDifference) + " this was the \'elif\' statement within the \'while loop!\'")
-        elif ourDifference == -1:
-            print(str(ourDifference) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
+    for i in range(a, b):
+        ourDiff -= i
+        if ourDiff == -75:
+            print(str(ourDiff) + " this is an \'if\' statement within a loop!")
+        elif ourDiff == 1:
+            print(str(ourDiff) + " this was the \'elif\' statement within the \'while loop!\'")
+        elif ourDiff == -1:
+            print(str(ourDiff) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
         else:
             print("this was the else statement in the \'while\' loop!")
         break
-i(int, int)
+i()
