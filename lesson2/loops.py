@@ -31,8 +31,10 @@ while n == 'right':
 """
 
 
+# Intial FOR -- IN randge() statement
 
 # shortcut with 'for' loop
+
 for n in range(5):
     print(n)
 if n == 4:
@@ -76,3 +78,11 @@ for i in range(5, 11, 2):
     yoursum += i
     print(str(yoursum) + " i + i while in loop")
 print(str(yoursum) + " answer while not in loop")
+
+# BREAK statement
+ourSum = 0
+for i in range(5, 11, 2):
+    ourSum += i
+    if ourSum == 5:
+        print(str(ourSum) + " this is a BREAK statement!")
+    break
