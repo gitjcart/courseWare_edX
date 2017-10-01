@@ -135,3 +135,15 @@ def i():
             print("this was the else statement in the \'while\' loop!")
         break
 i()
+
+
+def j():
+    mysum = 0
+    for i in range(5, 11):
+        mysum += i
+        if mysum == 5:
+            print(str(mysum)) + " this is a BREAK statement!"
+        break
+
+j()
+i()
