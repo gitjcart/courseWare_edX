@@ -142,7 +142,7 @@ def j():
     for i in range(5, 11):
         mysum += i
         if mysum == 5:
-            print(str(mysum)) + " this is a BREAK statement!"
+            print(str(mysum) + " this is a BREAK statement!")
         break
 
 j()
