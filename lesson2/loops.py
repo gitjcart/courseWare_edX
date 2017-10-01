@@ -113,7 +113,8 @@ The current way the program is written, it will not run..
 
 It returns a syntax error on the double 'int' argument
 
-"""
+
+
 def i(int, int):
     ourDiff = 0
     for i in range(1, 100):
@@ -128,3 +129,5 @@ def i(int, int):
             print("this was the else statement in the \'while\' loop!")
         break
 i(int, int)
+
+"""
