@@ -113,9 +113,13 @@ The current way the program is written, it will not run..
 
 It returns a syntax error on the double 'int' argument
 
+## WHY WOULD YOU NEED TWO ARGUMENTS?????!!!??
+
+## YOU DON'T NEED ANY ARGUMENTS aka ZERO ARGUMENTS . . . watch. 
+"""
 
 
-def i(int, int):
+def i():
     ourDiff = 0
     for i in range(1, 100):
         ourDifference -= i
@@ -129,5 +133,3 @@ def i(int, int):
             print("this was the else statement in the \'while\' loop!")
         break
 i(int, int)
-
-"""
