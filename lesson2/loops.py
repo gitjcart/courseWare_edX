@@ -126,9 +126,9 @@ def i():
     for i in range(a, b):
         ourDiff -= i
         if ourDiff == -75:
-            print(str(ourDiff) + " this is an \'if\' statement within a loop!")
-        elif ourDiff == 1:
-            print(str(ourDiff) + " this was the \'elif\' statement within the \'while loop!\'")
+            print(str(ourDiff) + " this is an \'if\' statement within the \'while loop!\'")
+        elif ourDiff == -2:
+            print(str(ourDiff) + " this was the 1st \'elif\' statement within the \'while loop!\'")
         elif ourDiff == -1:
             print(str(ourDiff) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
         else:
