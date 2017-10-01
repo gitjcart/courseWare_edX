@@ -102,19 +102,29 @@ for i in range(1, 100):
         print("this was the else statement in the \'while\' loop!")
     break
 
-# this is a practice WHILE LOOP assigned to a function.
+"""
+this is a practice WHILE LOOP assigned to a function.
 
-def i(int, int)
-ourDiff = 0
-for i in range(1, 100):
-    ourDifference -= i
-    if ourDifference == -75:
-        print(str(ourDifference) + " this is an \'if\' statement within a loop!")
-    elif ourDifference == 1:
-        print(str(ourDifference) + " this was the \'elif\' statement within the \'while loop!\'")
-    elif ourDifference == -1:
-        print(str(ourDifference) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
-    else:
-        print("this was the else statement in the \'while\' loop!")
-    break
+DO NOT FORGET YOUR COLON WHILE ASSIGNING A FUNCTION!!!!!
+
+It appears we can't have a double argument in a function.
+
+The current way the program is written, it will not run..
+
+It returns a syntax error on the double 'int' argument
+
+"""
+def i(int, int):
+    ourDiff = 0
+    for i in range(1, 100):
+        ourDifference -= i
+        if ourDifference == -75:
+            print(str(ourDifference) + " this is an \'if\' statement within a loop!")
+        elif ourDifference == 1:
+            print(str(ourDifference) + " this was the \'elif\' statement within the \'while loop!\'")
+        elif ourDifference == -1:
+            print(str(ourDifference) + " this was the 2nd \'elif\' statement within the \'while loop!\'")
+        else:
+            print("this was the else statement in the \'while\' loop!")
+        break
 i(int, int)
