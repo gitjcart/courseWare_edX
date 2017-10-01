@@ -156,19 +156,19 @@ def k():
         myproduct *=  i
         if myproduct == 63 or myproduct == 693:
             if myproduct == 63:
-                print(str(myproduct) + "      This is the second \'if\' statement in k() -- !")
+                print(str(myproduct) + "       This is the second \'if\' statement in k() -- !")
             else:
-                print(str(myproduct) + "     This is the third  \'if\' statement in k() -- !")
+                print(str(myproduct) + "      This is the third  \'if\' statement in k() -- !")
         elif myproduct == 7 or myproduct == 135135:
             if myproduct == 7:
-                print(str(myproduct) + "       This is the first \'elif\' statement in k() -- !")
+                print(str(myproduct) + "        This is the first \'elif\' statement in k() -- !")
             else:
-                print(str(myproduct) + "  This is the fifth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "   This is the fifth \'elif\' statement in k() -- !")
         elif myproduct == 9009 or myproduct == 2297295:
             if myproduct == 9009:
-                print(str(myproduct) + "    This is the fourth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "     This is the fourth \'elif\' statement in k() -- !")
             else:
-                print(str(myproduct) + " This is the sixth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "  This is the sixth \'elif\' statement in k() -- !")
         else:
             break
 k()
