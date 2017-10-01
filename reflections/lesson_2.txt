@@ -4,3 +4,31 @@ Variables aka Bindings
 String assignment
 
 Control Flow statements, such as "while" or "for", allow you to control flow in a non-linear fashion. meaning Control can flow in directions other than a straight line.
+
+game . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1. )	Define a function which takes user input.
+2. )	Convert user input to an integer.
+3. )	Save converted input to a variable.
+4. )	Define another variable and set it to zero.
+5. )	Start a while loop.
+6. )	Make the range function call the saved variables.
+7. )	Make the variable subtract from itself whatever number is currently in the while loop.
+8. )	Insert an IF statement.
+9. )	Make the IF statment compare the saved "zero" variable against any integer
+10.)	If it evaluates to true, tell it to print the saved variable as a string.
+11.)	Concatenate strings so the IF statement prints a space between the first and second strings.
+11.)	Print to console "this was an IF statement!"
+12.)	Insert an ELIF statment.
+13.)	Make the ELIF statment compare the saved "zero" variable against "1"
+14.)	If it evaluates to true, tell it to print the saved variable as a string.
+15.)	Concatenate strings so the ELIF statement prints a space between the first and second strings.
+16.)	Print to console "this was an ELIF statement!"
+17.)	Insert a 2nd ELIF statment.
+18.)	Make the ELIF statment compare the saved "zero" variable against "-1"
+19.)	If it evaluates to true, tell it to print the saved variable as a string.
+20.)	Concatenate strings so the ELIF statement prints a space between the first and second strings.
+21.)	Print to console "this was the 2nd ELIF statement!"
+22.)	Insert an ELSE statment.
+23.)	Concatenate strings so the ELSE statement prints a space between the first and second strings.
+24.)	Print to console "this was the ELSE statement!"
