@@ -195,15 +195,19 @@ l()
 # \
 # \
 # This is going to incorporate all 4 basic arthimetic versions.  Sums, Differences, Products and Quotient.
+# YOU MUST PUT THE FUNCTION AT THE END OF THE FUNCTION FOR IT TO RUN!!! ie ... m(), l(), j(), k(), i()
 
 def m():
     mySum = 0
     myProduct = 1
     myDifference = 0
     myQuotient = -0.1
-    print "%s, %s, %s, %s," % (mySum, myProduct, myDifference, myQuotient,)
+#    print "%s, %s, %s, %s," % (mySum, myProduct, myDifference, myQuotient,)
+    print(mySum, myProduct, myDifference, myQuotient)
     for i in range(1, 20, 2):
         mySum += i
         myProduct *= i
         myDifference -= i
         myQuotient /= i
+        print(mySum, myProduct, myDifference, myQuotient)
+m()
