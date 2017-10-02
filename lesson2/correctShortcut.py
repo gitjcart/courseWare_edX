@@ -8,8 +8,8 @@ print ("Hello World! %s" %(x))
 
 
 # HERE IS THE WRONG FORMAT. where x is a string. and print() is a NoneType.
-# The NoneType doesnt return anything, when it tries to assign x=None
-# it pulls an error
+# The NoneType doesnt return anything, when it tries to get x for the value None,
+# it pulls an error. 
 
 
 # x = "Hello"
