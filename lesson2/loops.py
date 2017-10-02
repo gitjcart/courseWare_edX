@@ -149,7 +149,9 @@ def j():
         break
 j()
 """
-"""
+# This started out as an experiement to incorporate conditional statements within conditional statements.
+# It ended up working pretty beautifully!!
+
 def k():
     myproduct = 1
     for i in range(7, 21, 2):
@@ -172,7 +174,9 @@ def k():
         else:
             break
 k()
-"""
+
+# we are trying to represent a function call to divide all numbers in this range or that range.
+# this is a test and is for fun purposes only
 
 def l():
     myQuotient = 0.1
@@ -183,3 +187,12 @@ def l():
         print(str(myQuotient) + " this is the second \'myQuotient\'!")
     print(str(myQuotient) + " this is the \'out of loop\' \'myQuotient\'!") 
 l()
+
+# This is going to incorporate all 4 basic arthimetic versions.  Sums, Differences, Products and Quotient.
+
+def m():
+    mySum = 0
+    myProduct = 1
+    myDifference = 0
+    myQuotient = -0.1
+
