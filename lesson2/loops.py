@@ -149,7 +149,7 @@ def j():
         break
 j()
 """
-
+"""
 def k():
     myproduct = 1
     for i in range(7, 21, 2):
@@ -172,3 +172,14 @@ def k():
         else:
             break
 k()
+"""
+
+def l():
+    myQuotient = 0.1
+    for i in range(1, 31, 3):
+        myQuotient /= i
+        print(str(myQuotient) + " this is the first \'myQuotient\'!")
+        print(str(i) + " this is the letter \'i\'!")
+        print(str(myQuotient) + " this is the second \'myQuotient\'!")
+    print(str(myQuotient) + " this is the \'out of loop\' \'myQuotient\'!") 
+l()
