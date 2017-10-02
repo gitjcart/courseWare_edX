@@ -196,6 +196,7 @@ l()
 # \
 # This is going to incorporate all 4 basic arthimetic versions.  Sums, Differences, Products and Quotient.
 # YOU MUST PUT THE FUNCTION AT THE END OF THE FUNCTION FOR IT TO RUN!!! ie ... m(), l(), j(), k(), i()
+# DO NO FORGET COLON'S AFTER CONDITIONAL STATEMENTS!
 
 def m():
     mySum = 0
@@ -209,5 +210,9 @@ def m():
         myProduct *= i
         myDifference -= i
         myQuotient /= i
+        if myProduct == 1:
+            print(str(myProduct) + " this was the if for myProduct")
+            if mySum == 1:
+                break
         print(mySum, myProduct, myDifference, myQuotient)
 m()
