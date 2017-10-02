@@ -175,6 +175,9 @@ def k():
             break
 k()
 
+# \
+# \
+# \
 # we are trying to represent a function call to divide all numbers in this range or that range.
 # this is a test and is for fun purposes only
 
@@ -188,6 +191,9 @@ def l():
     print(str(myQuotient) + " this is the \'out of loop\' \'myQuotient\'!") 
 l()
 
+# \
+# \
+# \
 # This is going to incorporate all 4 basic arthimetic versions.  Sums, Differences, Products and Quotient.
 
 def m():
@@ -195,4 +201,9 @@ def m():
     myProduct = 1
     myDifference = 0
     myQuotient = -0.1
-
+    print "%s, %s, %s, %s," % (mySum, myProduct, myDifference, myQuotient,)
+    for i in range(1, 20, 2):
+        mySum += i
+        myProduct *= i
+        myDifference -= i
+        myQuotient /= i
