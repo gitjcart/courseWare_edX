@@ -154,28 +154,30 @@ j()
 
 def k():
     myproduct = 1
+    print(" ")
     for i in range(7, 21, 2):
         myproduct *=  i
         if myproduct == 63 or myproduct == 693:
             if myproduct == 63:
-                print(str(myproduct) + "       * This is the second \'if\' statement in k() -- !")
+                print(str(myproduct) + "       * This is the second \'if\' statement in k() -- !"), print(" ")
             else:
-                print(str(myproduct) + "      * This is the third  \'if\' statement in k() -- !")
+                print(str(myproduct) + "      * This is the third  \'if\' statement in k() -- !"), print(" ")
         elif myproduct == 7 or myproduct == 135135:
             if myproduct == 7:
-                print(str(myproduct) + "        * This is the first \'elif\' statement in k() -- !")
+                print(str(myproduct) + "        * This is the first \'elif\' statement in k() -- !"), print(" ")
             else:
-                print(str(myproduct) + "   * This is the fifth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "   * This is the fifth \'elif\' statement in k() -- !"), print(" ")
         elif myproduct == 9009 or myproduct == 2297295:
             if myproduct == 9009:
-                print(str(myproduct) + "     * This is the fourth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "     * This is the fourth \'elif\' statement in k() -- !"), print(" ")
             else:
-                print(str(myproduct) + "  * This is the sixth \'elif\' statement in k() -- !")
+                print(str(myproduct) + "  * This is the sixth \'elif\' statement in k() -- !"), print(" ")
         else:
+            print("blimey got it wrong, Josh")
             break
 k()
-print(" ")
-print(" ")
+
+
 
 # \
 # \
@@ -185,15 +187,16 @@ print(" ")
 
 def l():
     myQuotient = 0.1
+    print(" ")
     for i in range(1, 31, 3):
         myQuotient /= i
-        print(str(myQuotient) + " this is the first \'myQuotient\'!")
-        print(str(i) + " this is the letter \'i\'!")
-        print(str(myQuotient) + " this is the second \'myQuotient\'!")
-    print(str(myQuotient) + " this is the \'out of loop\' \'myQuotient\'!") 
+        print(str(myQuotient) + " this is the first \'myQuotient\'!"), print(" ")
+        print(str(i) + " this is the letter \'i\'!"), print(" ")
+        print(str(myQuotient) + " this is the second \'myQuotient\'!"), print(" ")
+    print(str(myQuotient) + " this is the \'out of loop\' \'myQuotient\'!") , print(" ")
 l()
-print(" ")
-print(" ")
+
+
 
 # \
 # \
@@ -207,8 +210,9 @@ def m():
     myProduct = 1
     myDifference = 0
     myQuotient = -0.1
+    print(" ")
 #    print "%s, %s, %s, %s," % (mySum, myProduct, myDifference, myQuotient,)
-    for i in range(1, 9, 2):
+    for i in range(1, 13, 2):
         mySum += i
         myProduct *= i
         myDifference -= i
@@ -253,7 +257,8 @@ def m():
                     print(str(myDifference) + " this was the 5th if for myDifference")
                     if myQuotient == -0.00010582010582010581:
                         print(str(myQuotient) + " this was the 5th if for myQuotient"), print(" ")
+        else:
             print("blimey got it wrong, Josh")
-#            break
+            break
 #        print(myProduct, mySum, myDifference, myQuotient)
 m()
