@@ -6,12 +6,13 @@ while True:
         age = int(input("Please enter your age: "))
     except ValueError:
         print("Please enter valid, positive integers.")
-        #better try again... Return to the start of the loop
+        #this means they didn't understand the question
+        #so they put a wrong answer. reword if possible.
         continue
 #
     else:
-        #age was successfully parsed!
-        #we're ready to exit the loop.
+        #the variable was sufficient for now.
+        #we can exit the loop.
         break
 #
 if age >= 18 and age <= 120: 
@@ -20,10 +21,18 @@ elif age >= 121:
 	print("nobody is that old, silly.")
 elif age < 7:
 	print("come on . . . someone that young needs parental assistance on the internet . . . ")
-elif age == 0:
+h[1, 2, 3, 4, 5, 6]
+elif age == h[[[[[[0]]]]]]:
 	print("you're a newborn or not alive . . . either way, please try again.")
+elif age == 
 else:
     print("you cannot partake in the voting festivities . . . patience young padawan, patience . . . ")
+
+
+
+
+
+
 
 # if type(len(name)) == int
 
