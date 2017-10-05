@@ -262,3 +262,5 @@ def m():
             break
 #        print(myProduct, mySum, myDifference, myQuotient)
 m()
+
+print(input("what do you want to print? --->  "))
