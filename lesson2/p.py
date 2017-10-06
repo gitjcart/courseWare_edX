@@ -14,8 +14,10 @@ print("your favorite number is %s, you like traveling %s, and you enjoy %s" %(c,
 
 # a is set equal to the mathematical operation 11 minus 20
 # it saves the difference of the two numbers as a variable.
-a = [11-20
+aa = [11-20
 
 ]
 
-print(a)
+print(aa)
+
+if 
