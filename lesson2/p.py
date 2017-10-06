@@ -20,4 +20,3 @@ aa = [11-20
 
 print(aa)
 
-if 
