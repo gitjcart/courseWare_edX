@@ -1,5 +1,5 @@
 # t.py
-
+"""
 varA = '1'
 varB = 1
 thanks = "We appreciate your interest in our products."
@@ -26,7 +26,7 @@ while num <= 5:
 
 print("Outside of loop")
 print(num) 
-"""
+
 numberOfLoops = 0
 numberOfApples = 2
 while numberOfLoops < 10:
@@ -34,8 +34,19 @@ while numberOfLoops < 10:
     numberOfApples += numberOfLoops
     numberOfLoops -= 1
 print("Number of apples: " + str(numberOfApples))
-"""
+
 num = 10
 while num > 3:
     num -= 1
     print(num)
+"""
+
+
+while:
+	end = 6
+	a = 1
+	for x in range(1, end):
+		a += x
+		print(a)
+		if a == 6:
+			break
