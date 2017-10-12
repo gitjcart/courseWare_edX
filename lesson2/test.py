@@ -39,7 +39,7 @@ num = 10
 while num > 3:
     num -= 1
     print(num)
-"""
+
 
 
 while:
@@ -50,3 +50,9 @@ while:
 		print(a)
 		if a == 6:
 			break
+"""
+i = 1
+end = 9
+for x in range(1, end):
+	i += x
+print(i)
